@@ -1,0 +1,39 @@
+// @import "../node_modules/bootstrap/scss/functions";
+// 2. Include any default variable overrides here
+// 3. Include remainder of required Bootstrap stylesheets
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/grid";
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+* {
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #041e42;
+}
+
+.btn-menu {
+    color: #fff;
+    background-color: #041e42;
+}
+
+.white p {
+    color: #fff;
+}
+
+.dropdown-toggle a {
+    // width: 400px;
+}
+
+.shop a {
+    color: #444;
+    text-decoration: none;
+}
+
+.anch a {
+    text-decoration: none;
+    color: #444;
+}
